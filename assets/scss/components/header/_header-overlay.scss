@@ -1,0 +1,5 @@
+.header-overlay {
+  @include abs-position;
+  background-color: #2d3651;
+  opacity: 0.8;
+}

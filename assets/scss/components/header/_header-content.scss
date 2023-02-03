@@ -1,0 +1,23 @@
+.header-content {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  align-items: center;
+
+  &__container {
+    @extend %container;
+    background-color: green;
+  }
+
+  &__title {
+    margin: 0 0 65px 0;
+  }
+
+  &action {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+}

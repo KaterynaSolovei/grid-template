@@ -1,0 +1,11 @@
+.header-menu {
+  background-color: aqua;
+  position: absolute;
+  z-index: 2;
+
+  &container {
+    @extend %container;
+    display: flex;
+    align-items: center;
+  }
+}
